@@ -1,0 +1,509 @@
+student_id,student_name,class,program,attendance_pct,assignment_score,exam_score,study_hours_per_day,lms_logins_per_week,course_completion_pct,quiz_average_pct,assignment_submission_rate_pct,days_since_last_login,fees_due,teacher_interactions_per_month,risk_level
+STU1001,Student_1,Grade 11,Computer Science,80.8,81.3,90.1,1.6,3.7,61.5,56.1,38.5,1,No,2.5,Low
+STU1002,Student_2,Grade 12,Science,100.0,66.3,94.5,3.4,2.4,99.8,71.3,75.1,2,No,5.6,Low
+STU1003,Student_3,Grade 9,Science,89.3,81.5,68.5,2.1,6.0,64.3,84.6,80.6,11,No,5.8,Medium
+STU1004,Student_4,Grade 11,Humanities,67.9,89.7,55.2,2.8,6.3,79.7,72.4,93.3,4,No,2.9,Medium
+STU1005,Student_5,Grade 11,Computer Science,63.4,85.1,75.8,3.6,0.5,74.8,43.2,90.5,7,No,1.2,Low
+STU1006,Student_6,Grade 12,Science,82.9,80.1,56.5,2.8,2.3,29.4,56.4,88.5,5,No,0.0,Low
+STU1007,Student_7,Grade 9,Humanities,57.5,89.1,100.0,2.1,1.2,87.4,68.7,63.6,0,Yes,0.4,Low
+STU1008,Student_8,Grade 9,Computer Science,100.0,90.7,70.3,2.6,2.9,76.3,68.7,43.7,5,No,0.5,Medium
+STU1009,Student_9,Grade 11,Humanities,92.5,94.1,61.8,2.7,4.0,82.2,100.0,70.9,1,No,5.5,Low
+STU1010,Student_10,Grade 10,Management,69.4,82.4,71.1,2.2,1.3,,46.4,96.0,4,No,3.2,Low
+STU1011,Student_11,Grade 11,Science,52.0,69.3,45.1,2.4,2.4,30.3,78.6,100.0,2,No,3.7,Medium
+STU1012,Student_12,Grade 11,Management,,74.3,51.5,5.2,2.2,100.0,95.3,90.8,24,Yes,0.0,Medium
+STU1013,Student_13,Grade 11,Computer Science,74.4,91.3,88.4,3.6,4.6,66.3,100.0,85.7,1,No,0.8,Medium
+STU1014,Student_14,Grade 11,Management,93.3,58.9,56.8,2.4,4.3,77.7,63.1,84.8,1,No,4.6,Low
+STU1015,Student_15,Grade 12,Management,53.7,77.9,50.2,3.8,2.8,71.1,78.4,68.0,11,No,3.5,Medium
+STU1016,Student_16,Grade 9,Computer Science,67.6,65.7,77.1,2.3,4.6,63.5,79.7,75.7,0,No,2.7,Low
+STU1017,Student_17,Grade 12,Humanities,76.1,72.5,88.2,4.6,3.1,60.6,73.3,100.0,5,No,4.0,Low
+STU1018,Student_18,Grade 12,Management,76.7,92.5,80.2,3.4,3.7,78.6,68.3,61.0,5,No,5.9,Low
+STU1019,Student_19,Grade 12,Humanities,69.7,75.1,84.9,2.6,7.5,41.7,77.4,100.0,7,No,2.6,Low
+STU1020,Student_20,Grade 11,Management,84.7,72.7,55.1,3.5,6.9,87.0,27.0,72.2,15,Yes,3.1,Medium
+STU1021,Student_21,Grade 10,Humanities,61.1,50.2,43.8,0.4,1.6,63.7,81.6,100.0,15,No,3.3,Medium
+STU1022,Student_22,Grade 9,Computer Science,74.0,83.9,93.5,1.1,5.9,49.4,72.1,52.7,0,No,7.3,Low
+STU1023,Student_23,Grade 10,Management,77.7,82.3,62.5,1.0,5.8,63.0,66.2,88.5,7,No,0.0,Low
+STU1024,Student_24,Grade 12,Computer Science,83.2,100.0,63.7,3.0,1.9,97.1,100.0,64.7,4,Yes,4.2,Low
+STU1025,Student_25,Grade 12,Management,86.0,67.1,90.6,5.4,5.8,61.3,58.5,52.5,4,No,2.8,Low
+STU1026,Student_26,Grade 10,Computer Science,60.3,75.5,77.5,6.1,7.3,79.2,63.1,81.9,1,No,4.0,Medium
+STU1027,Student_27,Grade 10,Computer Science,54.5,76.0,75.8,3.8,2.0,57.4,100.0,96.2,4,No,1.8,Medium
+STU1028,Student_28,Grade 10,Management,93.9,97.2,100.0,3.6,2.4,87.2,55.9,62.8,16,No,2.9,Low
+STU1029,Student_29,Grade 12,Management,80.7,70.5,57.1,0.2,6.2,85.7,60.6,51.0,10,No,4.3,Low
+STU1030,Student_30,Grade 12,Management,65.5,76.5,83.8,2.0,4.7,100.0,67.5,76.3,2,No,8.6,Low
+STU1031,Student_31,Grade 9,Science,97.7,81.7,69.0,1.6,5.3,68.5,84.3,76.4,0,No,4.5,Low
+STU1032,Student_32,Grade 9,Humanities,77.6,75.0,72.6,1.9,4.9,85.4,73.5,87.9,2,Yes,1.5,Medium
+STU1033,Student_33,Grade 12,Science,92.5,64.9,94.0,2.5,5.0,,48.0,95.1,7,No,2.2,Low
+STU1034,Student_34,Grade 10,Science,,75.1,76.6,2.1,1.5,97.9,61.0,76.9,5,No,2.2,Low
+STU1035,Student_35,Grade 10,Computer Science,100.0,89.2,77.2,0.2,6.3,57.6,59.7,100.0,2,Yes,0.0,Low
+STU1036,Student_36,Grade 9,Management,100.0,55.6,86.2,3.9,6.5,86.9,68.7,82.0,0,No,2.4,Low
+STU1037,Student_37,Grade 12,Humanities,72.5,74.1,61.8,1.2,3.7,68.1,77.2,71.8,2,Yes,4.3,Low
+STU1038,Student_38,Grade 9,Computer Science,89.6,60.8,53.7,3.2,4.1,70.7,77.1,49.0,3,No,0.7,Medium
+STU1039,Student_39,Grade 9,Science,85.0,91.1,50.2,5.9,1.1,73.8,39.8,73.3,11,No,4.9,Low
+STU1040,Student_40,Grade 11,Management,95.2,,34.6,1.4,5.2,77.0,88.1,71.9,4,Yes,3.9,Low
+STU1041,Student_41,Grade 11,Computer Science,62.5,63.1,100.0,0.2,5.3,69.7,74.3,95.3,1,No,1.7,Low
+STU1042,Student_42,Grade 11,Management,85.6,78.0,49.2,2.4,4.1,76.3,93.5,86.3,3,No,2.7,Low
+STU1043,Student_43,Grade 10,Computer Science,90.8,97.0,64.2,4.5,6.4,100.0,77.6,56.8,0,No,5.9,Low
+STU1044,Student_44,Grade 12,Management,51.4,70.9,63.3,5.7,3.5,91.7,88.7,81.1,14,Yes,4.3,Medium
+STU1045,Student_45,Grade 12,Science,59.4,63.1,73.2,1.0,5.3,89.4,77.9,90.1,2,No,3.0,Medium
+STU1046,Student_46,Grade 12,Humanities,47.5,100.0,81.9,3.5,2.2,62.9,92.9,100.0,3,No,2.6,Medium
+STU1047,Student_47,Grade 12,Science,72.2,48.8,82.6,2.1,4.2,54.2,78.9,94.0,2,No,3.1,Medium
+STU1048,Student_48,Grade 11,Humanities,86.0,36.8,58.1,2.6,3.9,91.1,68.3,91.7,5,No,2.1,Low
+STU1049,Student_49,Grade 10,Management,97.0,79.0,65.2,6.8,4.7,89.5,100.0,79.1,4,No,0.0,Low
+STU1050,Student_50,Grade 10,Computer Science,77.0,64.0,72.8,0.5,3.5,100.0,85.1,85.0,5,No,6.7,Low
+STU1051,Student_51,Grade 11,Science,98.8,55.7,63.8,3.2,3.9,59.9,79.8,100.0,1,Yes,3.3,Low
+STU1052,Student_52,Grade 10,Humanities,56.7,83.3,95.3,3.5,5.9,67.4,48.3,54.0,2,No,3.7,Low
+STU1053,Student_53,Grade 11,Science,52.2,75.9,76.3,4.4,3.3,39.2,48.1,71.7,1,Yes,2.9,Medium
+STU1054,Student_54,Grade 12,Humanities,75.2,63.0,80.5,2.9,1.0,64.2,75.0,64.1,4,No,1.7,Low
+STU1055,Student_55,Grade 11,Science,81.4,51.5,79.3,3.3,7.7,91.9,72.5,84.8,0,No,2.7,Low
+STU1056,Student_56,Grade 12,Humanities,75.5,86.0,87.9,2.2,7.0,62.7,59.6,100.0,4,Yes,0.1,Low
+STU1057,Student_57,Grade 12,Humanities,47.1,82.4,71.1,3.2,1.6,84.8,72.4,67.3,8,Yes,7.1,Medium
+STU1058,Student_58,Grade 9,Management,,70.4,46.0,2.3,5.6,68.2,97.0,35.0,9,No,0.8,Medium
+STU1059,Student_59,Grade 11,Humanities,57.7,100.0,74.8,3.7,3.2,78.5,81.8,70.6,2,Yes,1.1,Medium
+STU1060,Student_60,Grade 9,Management,85.4,54.9,56.9,2.2,4.7,49.0,50.6,94.4,2,No,2.2,Low
+STU1061,Student_61,Grade 11,Humanities,81.1,47.6,59.0,3.4,4.8,73.7,68.1,87.7,0,No,5.3,Low
+STU1062,Student_62,Grade 11,Computer Science,62.8,60.9,78.0,2.8,3.7,15.0,56.3,85.7,4,No,3.0,Medium
+STU1063,Student_63,Grade 9,Computer Science,68.8,71.3,89.1,4.5,2.6,68.3,63.4,73.0,7,No,0.8,Medium
+STU1064,Student_64,Grade 9,Computer Science,61.2,75.9,68.4,2.7,2.8,,63.0,55.0,1,No,5.3,Medium
+STU1065,Student_65,Grade 11,Humanities,75.1,68.1,73.3,0.2,2.4,96.1,61.9,87.3,2,Yes,4.3,Medium
+STU1066,Student_66,Grade 10,Management,89.4,77.6,96.9,4.7,2.5,87.5,48.7,63.0,7,Yes,4.0,Low
+STU1067,Student_67,Grade 12,Management,62.2,52.0,72.1,1.4,4.1,81.3,67.8,100.0,8,No,4.3,Low
+STU1068,Student_68,Grade 9,Humanities,83.1,95.1,100.0,1.8,2.8,100.0,60.5,88.3,1,Yes,7.3,Medium
+STU1069,Student_69,Grade 12,Computer Science,68.6,,77.6,1.9,5.6,53.0,20.2,67.5,3,No,6.9,Low
+STU1070,Student_70,Grade 10,Computer Science,64.9,89.9,38.1,4.9,7.2,100.0,100.0,67.0,1,No,1.8,Low
+STU1071,Student_71,Grade 10,Management,74.5,77.5,80.8,0.2,3.0,90.6,88.5,76.3,0,Yes,5.9,Low
+STU1072,Student_72,Grade 10,Computer Science,61.5,79.3,74.5,7.5,4.7,67.3,63.6,73.7,10,No,3.7,Medium
+STU1073,Student_73,Grade 9,Science,68.2,81.1,89.9,4.4,5.2,94.7,70.3,98.1,7,Yes,3.9,Medium
+STU1074,Student_74,Grade 10,Management,59.2,79.2,79.4,3.1,5.1,49.9,50.1,81.4,6,No,0.0,Medium
+STU1075,Student_75,Grade 9,Computer Science,100.0,82.3,65.6,2.7,4.4,55.5,98.8,64.8,0,No,2.7,Low
+STU1076,Student_76,Grade 10,Management,76.5,93.3,47.2,3.2,5.7,59.8,100.0,100.0,7,No,1.5,Low
+STU1077,Student_77,Grade 12,Science,66.2,75.1,64.4,3.6,5.2,61.4,72.7,78.9,2,Yes,4.5,Medium
+STU1078,Student_78,Grade 12,Management,79.0,83.3,53.5,3.8,1.7,50.9,87.4,91.8,2,No,4.9,Low
+STU1079,Student_79,Grade 11,Management,,70.6,58.1,3.6,5.9,96.5,73.0,67.1,3,No,0.0,Medium
+STU1080,Student_80,Grade 12,Management,72.9,95.0,78.0,2.9,6.0,66.8,47.3,84.5,0,No,3.0,Low
+STU1081,Student_81,Grade 11,Management,84.6,61.2,96.4,2.5,2.7,79.1,63.0,83.6,6,No,5.0,Low
+STU1082,Student_82,Grade 12,Science,86.6,100.0,74.7,,4.3,60.6,72.2,44.0,3,Yes,2.7,Medium
+STU1083,Student_83,Grade 9,Humanities,,71.4,47.7,2.5,5.6,35.6,62.3,100.0,1,No,4.3,Low
+STU1084,Student_84,Grade 12,Management,67.9,49.1,75.6,4.5,3.8,77.4,66.3,100.0,1,No,3.6,Low
+STU1085,Student_85,Grade 11,Management,72.1,74.0,88.3,3.7,6.3,33.8,68.4,70.9,1,No,3.6,Low
+STU1086,Student_86,Grade 11,Computer Science,43.8,61.1,57.6,0.2,8.9,70.6,68.6,58.2,0,No,2.5,Medium
+STU1087,Student_87,Grade 10,Management,54.8,85.5,65.7,3.8,2.6,,70.9,84.3,4,No,0.8,Medium
+STU1088,Student_88,Grade 9,Computer Science,95.1,61.6,68.2,3.1,1.4,100.0,52.0,79.6,7,No,1.0,Low
+STU1089,Student_89,Grade 12,Humanities,99.0,64.9,54.7,2.8,4.8,90.2,57.8,84.4,0,No,4.3,Low
+STU1090,Student_90,Grade 10,Science,72.5,41.8,79.0,2.2,5.6,74.1,48.2,81.4,0,No,3.0,Medium
+STU1091,Student_91,Grade 12,Science,84.1,64.8,65.9,4.5,3.7,97.3,86.6,87.1,3,No,2.8,Low
+STU1092,Student_92,Grade 12,Humanities,80.4,33.2,75.1,4.2,7.1,55.1,34.2,100.0,7,No,2.2,Medium
+STU1093,Student_93,Grade 10,Science,,46.7,52.9,1.6,1.5,82.9,89.6,88.2,2,No,2.5,Low
+STU1094,Student_94,Grade 10,Humanities,91.7,84.2,60.6,3.4,5.6,76.0,93.6,59.1,2,No,4.9,Low
+STU1095,Student_95,Grade 10,Humanities,74.2,84.6,80.3,1.3,3.0,77.3,64.9,100.0,4,No,2.4,Low
+STU1096,Student_96,Grade 10,Humanities,62.6,78.8,61.7,0.7,7.6,97.4,25.7,100.0,1,No,0.6,Medium
+STU1097,Student_97,Grade 10,Science,53.5,56.5,97.4,1.9,8.2,86.6,63.9,100.0,0,No,4.3,Low
+STU1098,Student_98,Grade 12,Computer Science,78.8,71.2,61.2,4.1,2.7,77.8,68.9,57.8,5,No,2.6,Medium
+STU1099,Student_99,Grade 10,Humanities,65.4,71.9,71.8,,3.1,38.9,52.8,82.4,4,No,3.1,Medium
+STU1100,Student_100,Grade 9,Management,56.1,53.5,83.9,3.6,5.9,,61.2,40.5,3,No,5.9,Medium
+STU1101,Student_101,Grade 11,Science,66.9,96.1,43.9,3.9,3.4,69.5,96.0,88.0,5,No,3.0,Medium
+STU1102,Student_102,Grade 10,Humanities,60.9,86.0,38.1,3.6,4.1,73.9,81.3,68.1,4,No,3.5,Low
+STU1103,Student_103,Grade 10,Humanities,99.6,68.5,42.1,1.8,4.3,49.4,54.3,100.0,1,No,0.9,Low
+STU1104,Student_104,Grade 12,Management,88.3,72.4,89.5,3.4,0.4,100.0,42.8,64.1,2,No,2.6,Low
+STU1105,Student_105,Grade 10,Computer Science,75.9,75.3,58.6,4.0,4.2,100.0,64.4,47.6,1,Yes,4.1,Low
+STU1106,Student_106,Grade 10,Computer Science,96.7,39.3,100.0,3.9,2.8,84.0,66.4,69.5,1,No,0.2,Low
+STU1107,Student_107,Grade 10,Computer Science,77.1,68.0,58.4,4.6,3.2,73.4,78.4,42.4,5,No,3.4,Low
+STU1108,Student_108,Grade 12,Humanities,63.9,61.1,71.1,3.9,7.1,67.8,60.9,91.5,8,No,3.2,Low
+STU1109,Student_109,Grade 10,Humanities,97.3,56.0,94.2,3.3,1.7,53.0,78.7,40.8,13,No,3.1,Low
+STU1110,Student_110,Grade 11,Humanities,83.5,67.5,100.0,4.4,5.8,73.5,100.0,78.5,4,Yes,4.9,Low
+STU1111,Student_111,Grade 12,Science,61.5,100.0,100.0,2.8,3.6,77.2,83.9,40.6,1,No,3.6,Low
+STU1112,Student_112,Grade 11,Management,73.3,82.3,88.5,1.5,3.6,47.2,69.2,72.2,0,No,5.7,Low
+STU1113,Student_113,Grade 12,Humanities,63.7,62.9,85.4,2.6,5.8,78.7,66.9,100.0,7,Yes,1.2,Medium
+STU1114,Student_114,Grade 10,Management,56.6,81.2,78.1,1.7,4.9,68.9,63.9,84.5,3,Yes,3.2,Medium
+STU1115,Student_115,Grade 11,Management,89.0,94.4,81.2,1.8,5.3,33.8,90.1,62.5,4,Yes,3.2,Medium
+STU1116,Student_116,Grade 12,Computer Science,100.0,86.8,58.6,2.6,6.1,54.8,59.3,77.4,6,No,1.1,Low
+STU1117,Student_117,Grade 9,Science,56.4,73.0,54.1,1.6,3.5,63.7,70.8,78.3,5,Yes,4.7,Medium
+STU1118,Student_118,Grade 10,Humanities,83.9,61.6,67.9,2.3,3.0,100.0,70.9,86.5,7,Yes,7.2,Low
+STU1119,Student_119,Grade 12,Computer Science,66.9,83.2,65.1,0.2,2.0,83.1,61.5,53.4,0,No,3.0,Low
+STU1120,Student_120,Grade 9,Computer Science,69.2,78.3,60.3,3.1,2.5,45.3,46.7,88.7,6,No,3.9,Low
+STU1121,Student_121,Grade 12,Humanities,67.7,86.3,79.8,2.8,10.0,81.7,75.5,29.3,8,No,3.2,Medium
+STU1122,Student_122,Grade 9,Management,63.9,82.2,84.2,1.6,6.7,41.1,69.0,66.7,1,No,1.7,Medium
+STU1123,Student_123,Grade 10,Computer Science,76.7,88.8,69.5,3.8,1.5,93.7,78.5,69.2,4,No,0.0,Low
+STU1124,Student_124,Grade 11,Management,64.4,63.4,93.1,4.2,1.6,62.6,60.9,89.4,2,No,1.7,Low
+STU1125,Student_125,Grade 9,Science,79.8,93.1,48.6,0.4,5.2,70.1,90.8,78.4,13,Yes,0.5,Low
+STU1126,Student_126,Grade 12,Management,75.3,75.2,64.7,1.7,5.3,98.5,55.1,52.7,0,Yes,6.1,Medium
+STU1127,Student_127,Grade 10,Science,,100.0,55.8,1.6,5.3,46.3,99.1,60.3,3,No,2.8,Medium
+STU1128,Student_128,Grade 9,Management,63.3,61.0,36.3,1.4,3.7,44.1,40.3,81.6,1,No,2.4,Medium
+STU1129,Student_129,Grade 12,Computer Science,67.9,99.8,66.6,4.0,3.9,60.3,77.4,76.6,5,No,4.6,Medium
+STU1130,Student_130,Grade 12,Computer Science,86.6,75.2,65.9,2.5,4.9,92.8,78.1,67.6,1,No,1.0,Low
+STU1131,Student_131,Grade 12,Science,83.0,61.6,93.7,2.4,4.4,41.6,56.5,69.3,1,No,1.6,Low
+STU1132,Student_132,Grade 9,Humanities,62.3,64.3,78.7,0.2,0.0,,77.2,90.5,3,No,3.1,Medium
+STU1133,Student_133,Grade 9,Science,77.4,66.9,50.6,3.8,3.7,63.0,91.8,68.7,10,Yes,4.9,Medium
+STU1134,Student_134,Grade 9,Science,86.5,78.8,99.5,0.9,2.5,83.0,32.3,76.4,1,No,3.9,Low
+STU1135,Student_135,Grade 11,Management,52.6,80.4,88.8,2.9,4.6,96.0,78.5,100.0,1,Yes,3.4,Low
+STU1136,Student_136,Grade 9,Management,83.6,62.8,77.9,3.2,10.0,62.7,27.6,52.4,6,Yes,3.1,Medium
+STU1137,Student_137,Grade 9,Science,66.7,71.6,64.1,4.8,4.9,63.8,53.6,44.7,3,Yes,3.7,Medium
+STU1138,Student_138,Grade 9,Computer Science,84.0,100.0,51.7,0.8,3.6,95.1,97.7,92.1,10,No,3.4,Low
+STU1139,Student_139,Grade 11,Management,65.3,99.6,61.7,0.2,6.0,34.6,60.1,65.8,1,No,1.1,Low
+STU1140,Student_140,Grade 9,Humanities,50.7,79.0,86.5,3.1,5.2,64.2,50.0,72.3,4,No,3.1,Medium
+STU1141,Student_141,Grade 12,Management,53.2,72.6,100.0,5.5,5.0,75.8,66.6,63.9,1,No,1.1,Medium
+STU1142,Student_142,Grade 9,Management,76.7,73.9,94.2,4.7,5.4,81.0,100.0,73.3,1,No,3.1,Low
+STU1143,Student_143,Grade 12,Humanities,79.6,81.8,59.7,3.1,8.3,61.8,38.9,100.0,5,No,2.1,Medium
+STU1144,Student_144,Grade 12,Science,63.3,55.6,49.0,2.1,1.9,72.7,52.1,92.4,4,Yes,7.6,High
+STU1145,Student_145,Grade 12,Humanities,84.9,67.9,70.4,4.0,5.1,22.2,95.5,93.5,6,No,2.9,Medium
+STU1146,Student_146,Grade 11,Science,52.7,45.3,37.9,1.3,2.3,58.8,100.0,52.5,1,No,0.5,Medium
+STU1147,Student_147,Grade 11,Science,75.1,78.4,73.5,3.5,5.3,81.1,68.2,57.3,2,No,2.8,Low
+STU1148,Student_148,Grade 11,Science,59.0,82.4,65.5,3.6,2.4,52.4,48.9,26.9,2,No,3.9,Low
+STU1149,Student_149,Grade 9,Humanities,66.9,64.3,60.1,4.4,3.4,73.2,100.0,63.4,17,No,6.0,Medium
+STU1150,Student_150,Grade 12,Science,76.7,97.2,40.9,6.9,3.6,80.9,97.1,95.2,1,No,1.9,Low
+STU1151,Student_151,Grade 11,Computer Science,64.0,52.4,76.7,3.4,6.2,65.1,81.5,87.3,1,Yes,0.2,Medium
+STU1152,Student_152,Grade 11,Humanities,70.6,48.6,58.9,2.0,6.0,75.4,56.2,74.0,2,No,4.5,Low
+STU1153,Student_153,Grade 9,Computer Science,90.1,75.6,48.1,2.8,1.7,52.7,69.2,77.6,3,Yes,0.5,Low
+STU1154,Student_154,Grade 11,Science,67.9,88.8,19.2,0.2,4.3,67.9,67.3,65.6,1,No,2.2,Low
+STU1155,Student_155,Grade 9,Management,87.7,98.9,67.5,1.8,2.8,84.2,75.6,81.7,10,No,2.5,Low
+STU1156,Student_156,Grade 10,Science,60.2,64.7,98.1,2.2,1.7,75.1,94.7,91.8,1,No,2.9,Low
+STU1157,Student_157,Grade 11,Computer Science,83.4,89.3,96.2,2.0,3.8,60.3,85.0,48.9,9,Yes,4.2,Medium
+STU1158,Student_158,Grade 10,Computer Science,96.2,71.4,60.2,3.0,3.6,76.5,51.7,83.4,0,No,1.8,Low
+STU1159,Student_159,Grade 9,Humanities,,69.2,57.8,1.6,9.1,86.3,93.4,94.8,4,No,2.5,Medium
+STU1160,Student_160,Grade 12,Management,64.8,86.1,76.0,4.5,5.1,31.0,75.3,70.5,10,No,3.0,Medium
+STU1161,Student_161,Grade 11,Humanities,84.1,82.4,51.0,2.8,1.4,95.2,81.7,90.6,1,No,3.3,Low
+STU1162,Student_162,Grade 9,Computer Science,,46.8,73.1,2.8,3.1,65.3,94.9,100.0,14,No,3.2,Low
+STU1163,Student_163,Grade 12,Science,81.2,95.6,81.0,2.3,6.2,80.5,51.1,76.1,2,No,3.8,Low
+STU1164,Student_164,Grade 12,Management,67.5,94.1,88.9,3.0,8.4,95.9,69.4,85.1,12,No,4.5,Low
+STU1165,Student_165,Grade 10,Science,77.2,62.0,66.3,4.0,1.0,44.6,61.0,64.7,5,No,3.7,Medium
+STU1166,Student_166,Grade 9,Science,73.8,78.3,64.5,1.5,0.4,57.8,43.3,81.3,1,No,3.8,Medium
+STU1167,Student_167,Grade 12,Management,92.3,79.9,53.1,1.8,7.9,66.2,75.9,86.3,1,No,0.2,Low
+STU1168,Student_168,Grade 11,Humanities,79.6,76.2,53.9,2.3,5.0,56.3,100.0,81.5,1,Yes,3.1,Medium
+STU1169,Student_169,Grade 11,Science,80.7,63.2,64.1,0.8,2.5,100.0,38.7,59.6,0,No,3.9,Medium
+STU1170,Student_170,Grade 10,Computer Science,70.2,61.3,74.2,1.6,5.3,54.9,69.5,81.7,1,Yes,4.3,Low
+STU1171,Student_171,Grade 12,Science,69.2,71.6,83.5,2.1,0.0,60.9,80.9,100.0,0,No,1.8,Low
+STU1172,Student_172,Grade 9,Management,,90.8,54.3,4.1,4.2,76.1,72.1,86.1,2,Yes,1.8,Medium
+STU1173,Student_173,Grade 11,Management,81.5,80.7,93.4,3.2,4.9,48.0,68.1,95.3,6,Yes,2.0,Medium
+STU1174,Student_174,Grade 12,Management,70.1,66.1,63.4,3.1,6.0,64.1,47.9,73.7,1,No,4.0,Low
+STU1175,Student_175,Grade 12,Humanities,80.1,84.3,67.6,4.1,2.2,78.3,74.0,91.5,1,No,4.9,Low
+STU1176,Student_176,Grade 10,Science,100.0,26.4,55.3,2.6,4.4,65.3,57.1,83.0,4,No,2.3,Medium
+STU1177,Student_177,Grade 11,Humanities,88.2,90.4,26.8,3.4,2.3,70.1,32.8,60.9,1,No,4.6,Medium
+STU1178,Student_178,Grade 11,Humanities,71.4,44.2,83.0,2.6,4.7,61.4,90.3,83.7,0,No,3.2,Low
+STU1179,Student_179,Grade 9,Management,92.8,66.2,80.5,3.2,2.4,41.7,86.3,60.1,1,No,2.8,Low
+STU1180,Student_180,Grade 11,Management,70.3,54.1,63.2,1.9,3.4,78.4,70.9,66.6,10,No,2.6,Medium
+STU1181,Student_181,Grade 9,Humanities,47.5,51.3,69.1,0.2,2.2,100.0,73.9,81.4,7,No,4.3,Medium
+STU1182,Student_182,Grade 11,Science,61.9,90.6,76.8,2.6,5.5,72.4,88.3,83.4,2,Yes,3.6,Medium
+STU1183,Student_183,Grade 10,Computer Science,49.8,64.5,41.4,4.9,5.9,76.5,73.8,56.6,4,Yes,7.1,Medium
+STU1184,Student_184,Grade 11,Humanities,71.1,77.5,59.0,4.2,3.7,85.9,85.4,97.0,3,No,1.5,Low
+STU1185,Student_185,Grade 9,Science,76.3,71.2,81.5,4.2,4.3,46.6,64.9,88.3,5,No,3.9,Low
+STU1186,Student_186,Grade 9,Management,99.5,79.6,46.7,4.7,1.3,100.0,92.3,65.3,5,Yes,2.0,Low
+STU1187,Student_187,Grade 10,Management,80.6,73.2,73.0,2.9,3.6,76.0,75.5,50.3,4,No,1.4,Low
+STU1188,Student_188,Grade 11,Science,72.9,51.5,44.9,3.1,4.1,100.0,73.3,75.4,1,No,3.0,Low
+STU1189,Student_189,Grade 11,Computer Science,87.6,87.9,75.9,1.9,9.4,57.3,48.4,70.0,0,No,3.2,Low
+STU1190,Student_190,Grade 10,Management,45.0,64.1,67.4,,2.0,100.0,74.9,80.0,2,No,8.3,Medium
+STU1191,Student_191,Grade 11,Management,79.3,47.1,40.5,3.7,7.1,87.5,55.9,71.5,9,No,2.7,Medium
+STU1192,Student_192,Grade 11,Management,86.8,65.2,87.8,4.6,6.2,83.1,59.1,41.9,3,No,1.0,Low
+STU1193,Student_193,Grade 9,Science,55.3,96.0,55.5,2.6,4.8,76.7,56.1,71.0,7,No,3.5,Medium
+STU1194,Student_194,Grade 11,Humanities,92.0,85.6,54.2,2.1,7.7,67.0,51.9,72.5,19,No,0.0,Low
+STU1195,Student_195,Grade 11,Management,80.7,66.4,71.4,2.8,4.9,96.0,100.0,89.4,1,No,2.8,Low
+STU1196,Student_196,Grade 10,Humanities,70.2,66.4,87.5,3.7,5.0,74.8,92.6,65.4,5,No,3.0,Low
+STU1197,Student_197,Grade 10,Computer Science,84.9,66.9,50.7,0.6,4.1,32.7,100.0,100.0,4,No,4.4,Low
+STU1198,Student_198,Grade 12,Management,100.0,100.0,69.0,0.2,6.6,49.7,49.2,43.6,16,No,4.8,Low
+STU1199,Student_199,Grade 9,Management,78.5,78.1,75.3,2.0,6.4,68.3,71.2,100.0,17,No,2.1,Low
+STU1200,Student_200,Grade 11,Computer Science,79.5,78.9,79.8,1.0,2.9,78.2,48.0,74.0,5,No,2.7,Low
+STU1201,Student_201,Grade 11,Management,69.6,88.5,71.0,2.0,1.6,70.9,58.2,93.5,1,No,1.6,Low
+STU1202,Student_202,Grade 12,Humanities,64.1,75.8,61.8,2.6,3.8,96.4,54.4,79.4,6,Yes,1.0,Medium
+STU1203,Student_203,Grade 11,Science,87.6,,53.9,2.1,2.6,33.0,91.1,98.5,0,Yes,3.6,Medium
+STU1204,Student_204,Grade 9,Humanities,64.0,68.9,69.5,5.0,4.1,74.9,63.3,71.0,6,No,0.7,Medium
+STU1205,Student_205,Grade 12,Science,77.0,70.9,49.8,3.3,6.7,35.6,88.2,58.2,10,No,2.3,Medium
+STU1206,Student_206,Grade 9,Science,69.3,71.4,18.3,3.3,3.3,87.2,80.3,100.0,2,No,1.2,High
+STU1207,Student_207,Grade 12,Humanities,82.7,83.6,75.4,3.7,4.1,70.1,100.0,76.0,4,No,4.0,Low
+STU1208,Student_208,Grade 12,Humanities,80.7,72.8,83.4,1.1,4.3,80.4,44.8,82.0,2,Yes,6.2,Low
+STU1209,Student_209,Grade 10,Humanities,90.5,83.7,27.8,4.4,5.9,54.7,91.4,100.0,2,Yes,0.7,Medium
+STU1210,Student_210,Grade 9,Humanities,68.9,70.7,50.8,2.7,0.0,97.6,89.5,59.4,1,No,0.0,Medium
+STU1211,Student_211,Grade 11,Computer Science,72.2,73.3,78.5,3.8,3.0,92.8,53.5,88.7,6,No,2.8,Low
+STU1212,Student_212,Grade 11,Management,62.3,40.0,100.0,,4.6,83.7,87.1,67.4,11,No,3.0,Low
+STU1213,Student_213,Grade 9,Science,69.8,86.7,68.4,0.5,6.6,69.4,75.7,75.6,11,No,3.4,Low
+STU1214,Student_214,Grade 11,Humanities,81.3,77.5,55.6,4.0,3.2,83.6,66.1,79.3,1,No,2.2,Low
+STU1215,Student_215,Grade 11,Humanities,86.6,88.0,64.9,3.4,0.4,57.9,56.0,51.0,8,No,2.6,Low
+STU1216,Student_216,Grade 9,Humanities,63.1,25.7,91.4,1.4,5.4,89.1,57.8,64.0,5,No,3.7,Low
+STU1217,Student_217,Grade 12,Computer Science,88.2,100.0,57.0,1.5,2.9,100.0,100.0,100.0,1,No,4.9,Low
+STU1218,Student_218,Grade 9,Humanities,95.0,69.8,54.4,,1.8,93.4,70.0,94.0,0,Yes,0.0,Low
+STU1219,Student_219,Grade 12,Humanities,81.8,89.7,59.8,1.0,3.0,57.4,83.3,76.9,1,No,2.3,Medium
+STU1220,Student_220,Grade 11,Humanities,100.0,55.4,51.8,5.3,3.8,79.2,56.6,82.4,10,No,3.4,Low
+STU1221,Student_221,Grade 11,Management,65.2,81.8,70.1,1.4,3.0,46.1,56.7,72.7,4,Yes,1.3,Low
+STU1222,Student_222,Grade 11,Computer Science,58.6,55.1,95.6,3.8,0.0,83.4,88.4,100.0,5,Yes,6.1,Low
+STU1223,Student_223,Grade 10,Humanities,51.1,62.0,73.5,2.3,6.0,81.0,47.1,74.4,1,Yes,1.9,Medium
+STU1224,Student_224,Grade 12,Science,96.9,100.0,63.7,3.7,6.7,34.6,62.9,82.2,5,Yes,2.9,Low
+STU1225,Student_225,Grade 10,Science,85.2,68.9,63.0,2.0,5.5,48.8,70.6,98.6,0,No,4.0,Low
+STU1226,Student_226,Grade 10,Science,75.2,75.5,41.4,2.6,1.9,66.3,71.9,64.0,2,No,1.9,Low
+STU1227,Student_227,Grade 9,Computer Science,79.9,85.9,83.0,2.9,3.8,66.0,67.0,100.0,4,No,0.0,Medium
+STU1228,Student_228,Grade 10,Computer Science,60.2,79.9,66.7,1.3,4.2,47.8,76.7,50.5,1,No,2.2,Medium
+STU1229,Student_229,Grade 9,Science,100.0,74.4,64.9,3.9,5.4,79.8,81.8,100.0,7,Yes,4.9,Low
+STU1230,Student_230,Grade 9,Humanities,77.8,77.8,100.0,2.0,5.5,77.0,82.5,71.3,1,Yes,2.4,Low
+STU1231,Student_231,Grade 10,Computer Science,77.5,100.0,73.1,2.5,2.7,68.1,53.2,73.6,4,No,1.5,Low
+STU1232,Student_232,Grade 12,Science,86.2,71.1,55.2,1.3,4.4,56.9,65.2,44.0,2,Yes,4.7,Medium
+STU1233,Student_233,Grade 12,Science,82.7,75.2,60.8,0.2,5.1,93.0,90.3,69.8,4,No,2.4,Low
+STU1234,Student_234,Grade 12,Humanities,79.1,88.8,87.5,2.5,7.1,100.0,85.2,59.3,0,No,2.1,Low
+STU1235,Student_235,Grade 12,Management,64.9,89.7,69.9,6.4,5.6,62.3,46.7,67.1,0,No,3.3,Medium
+STU1236,Student_236,Grade 12,Computer Science,82.6,91.0,43.5,4.0,5.8,59.8,76.0,75.5,10,No,4.4,Low
+STU1237,Student_237,Grade 10,Humanities,100.0,82.2,83.6,2.8,4.4,81.8,36.4,95.2,1,No,7.3,Low
+STU1238,Student_238,Grade 10,Science,94.8,,56.6,2.4,7.0,64.8,70.8,81.7,7,No,4.5,Low
+STU1239,Student_239,Grade 11,Science,98.3,98.1,99.8,2.8,5.0,69.2,100.0,83.5,29,No,5.1,Low
+STU1240,Student_240,Grade 12,Humanities,68.8,53.7,86.4,3.6,2.5,86.8,53.9,58.3,1,No,2.1,Low
+STU1241,Student_241,Grade 10,Computer Science,62.1,76.8,60.4,1.0,7.0,33.8,55.8,62.1,1,No,1.2,Medium
+STU1242,Student_242,Grade 11,Management,74.2,59.9,89.8,4.5,5.6,98.4,83.0,100.0,4,Yes,3.1,Medium
+STU1243,Student_243,Grade 12,Management,76.8,71.0,69.2,3.9,3.3,73.5,43.8,64.8,13,No,3.2,Medium
+STU1244,Student_244,Grade 9,Science,91.3,77.3,82.5,3.9,3.2,63.8,59.2,100.0,10,No,1.1,Low
+STU1245,Student_245,Grade 11,Computer Science,52.3,77.1,76.2,3.5,4.8,70.2,80.1,73.6,3,Yes,2.7,Medium
+STU1246,Student_246,Grade 10,Management,97.4,78.8,53.6,2.8,5.1,71.2,59.2,78.0,6,No,3.7,Low
+STU1247,Student_247,Grade 9,Computer Science,73.8,97.8,57.1,3.8,4.6,37.4,66.0,97.3,1,No,3.6,Medium
+STU1248,Student_248,Grade 9,Computer Science,,79.3,85.5,3.7,4.8,100.0,82.7,100.0,15,No,3.9,Low
+STU1249,Student_249,Grade 9,Science,61.8,68.1,62.3,2.3,7.6,72.8,77.2,76.0,13,No,3.5,Medium
+STU1250,Student_250,Grade 11,Management,52.8,87.4,61.1,1.9,6.3,80.9,74.5,71.0,1,No,2.1,Medium
+STU1251,Student_251,Grade 10,Humanities,87.5,91.0,51.8,3.0,4.6,91.0,64.2,77.0,1,No,2.1,Low
+STU1252,Student_252,Grade 9,Science,77.0,52.4,75.2,5.1,6.1,51.6,76.3,84.1,0,No,0.8,Low
+STU1253,Student_253,Grade 12,Management,57.9,81.6,100.0,0.9,2.1,81.5,67.9,94.0,1,No,6.2,Low
+STU1254,Student_254,Grade 9,Management,57.9,83.2,49.9,0.6,5.0,66.6,77.8,78.1,7,Yes,3.0,High
+STU1255,Student_255,Grade 9,Management,71.3,67.2,68.4,3.0,7.8,88.9,61.6,89.1,2,Yes,2.6,Low
+STU1256,Student_256,Grade 11,Management,99.4,94.0,92.0,2.9,3.8,29.5,66.9,100.0,0,Yes,1.3,Low
+STU1257,Student_257,Grade 11,Management,72.4,69.6,66.6,3.1,2.5,70.0,53.2,84.9,2,No,8.3,Low
+STU1258,Student_258,Grade 10,Computer Science,55.0,74.0,75.7,3.2,2.9,59.9,69.4,83.6,16,No,1.1,Low
+STU1259,Student_259,Grade 12,Science,72.6,69.2,49.9,2.5,2.0,80.6,56.2,50.7,4,No,2.2,Low
+STU1260,Student_260,Grade 11,Computer Science,72.2,72.2,75.3,5.0,2.6,81.4,51.1,30.6,2,No,3.7,Low
+STU1261,Student_261,Grade 9,Humanities,38.2,54.5,64.8,0.4,3.5,57.8,74.4,85.0,1,No,4.1,Medium
+STU1262,Student_262,Grade 10,Management,75.2,49.0,84.8,1.6,1.4,57.8,73.6,76.3,17,No,4.7,Low
+STU1263,Student_263,Grade 9,Science,72.8,97.5,88.2,2.6,4.2,69.8,83.3,68.7,7,No,6.3,Low
+STU1264,Student_264,Grade 9,Management,85.7,58.4,100.0,0.3,6.0,54.1,62.7,82.4,1,Yes,3.9,Low
+STU1265,Student_265,Grade 11,Science,100.0,56.1,77.9,2.5,2.4,88.8,76.9,76.9,0,No,1.1,Low
+STU1266,Student_266,Grade 10,Computer Science,91.8,37.5,73.5,5.3,7.2,64.6,79.4,98.3,0,No,2.5,Low
+STU1267,Student_267,Grade 12,Science,72.2,61.8,71.3,2.8,5.2,15.0,77.6,79.5,1,Yes,3.6,Medium
+STU1268,Student_268,Grade 12,Humanities,60.5,50.8,62.0,3.1,6.3,64.5,56.0,64.6,3,No,6.7,Medium
+STU1269,Student_269,Grade 11,Humanities,100.0,98.3,73.8,0.9,2.9,51.2,72.5,95.8,11,Yes,0.5,Low
+STU1270,Student_270,Grade 11,Science,76.8,88.2,63.0,1.9,5.9,39.4,76.2,74.1,3,No,5.2,Medium
+STU1271,Student_271,Grade 10,Science,76.2,61.0,70.9,2.2,2.0,47.3,70.1,87.5,7,No,3.3,Low
+STU1272,Student_272,Grade 12,Science,75.7,100.0,90.4,2.3,6.0,74.2,34.5,69.4,2,Yes,4.5,Low
+STU1273,Student_273,Grade 12,Science,78.8,87.7,50.9,4.7,4.5,98.6,72.7,66.3,5,No,2.8,Low
+STU1274,Student_274,Grade 12,Humanities,74.0,66.8,87.4,3.6,5.3,78.3,100.0,79.5,5,No,1.5,Low
+STU1275,Student_275,Grade 9,Management,68.0,32.0,90.4,1.1,1.8,59.9,63.9,78.2,1,No,4.4,Low
+STU1276,Student_276,Grade 12,Science,68.3,100.0,66.0,3.2,2.4,81.1,57.6,86.6,2,Yes,4.2,Low
+STU1277,Student_277,Grade 9,Science,75.5,49.8,31.9,3.5,5.4,62.8,76.3,73.2,4,No,4.7,Low
+STU1278,Student_278,Grade 10,Humanities,68.4,45.7,57.7,4.5,2.3,58.1,75.3,44.9,0,No,3.0,Medium
+STU1279,Student_279,Grade 9,Humanities,66.0,88.4,90.0,5.2,5.1,48.9,90.3,70.2,2,No,1.9,Low
+STU1280,Student_280,Grade 10,Computer Science,77.5,100.0,67.6,1.3,1.5,37.0,48.6,92.3,3,Yes,0.2,Medium
+STU1281,Student_281,Grade 12,Science,72.4,94.1,51.0,1.6,5.9,64.2,82.4,72.6,22,No,4.5,Medium
+STU1282,Student_282,Grade 12,Computer Science,97.1,,59.4,0.9,1.7,75.2,80.0,73.6,3,Yes,3.8,Low
+STU1283,Student_283,Grade 10,Humanities,38.9,81.5,82.3,2.4,5.3,70.1,67.6,95.8,7,Yes,1.3,Medium
+STU1284,Student_284,Grade 11,Humanities,91.3,85.7,77.3,3.5,5.5,63.7,75.8,65.2,2,No,2.0,Low
+STU1285,Student_285,Grade 10,Management,93.4,84.1,63.9,4.3,2.8,53.1,87.5,50.2,6,No,2.2,Medium
+STU1286,Student_286,Grade 11,Science,47.0,76.5,61.8,2.7,5.4,84.2,84.8,75.1,4,Yes,0.3,Low
+STU1287,Student_287,Grade 9,Computer Science,71.2,73.7,61.3,2.3,4.7,45.7,50.6,69.3,9,No,1.5,Medium
+STU1288,Student_288,Grade 9,Humanities,70.8,71.0,52.3,3.0,3.1,87.5,83.9,60.6,2,No,1.0,Low
+STU1289,Student_289,Grade 9,Humanities,56.3,59.9,95.5,,2.2,52.0,68.9,74.8,4,No,2.3,Medium
+STU1290,Student_290,Grade 12,Computer Science,65.1,67.5,62.5,5.9,0.3,57.0,71.2,86.8,4,No,1.7,Low
+STU1291,Student_291,Grade 9,Management,60.5,44.9,88.7,0.4,4.9,42.7,71.2,77.8,2,No,0.1,Low
+STU1292,Student_292,Grade 11,Humanities,100.0,70.4,93.9,3.1,1.1,62.0,67.4,83.5,1,Yes,6.6,Low
+STU1293,Student_293,Grade 9,Science,89.1,56.2,85.0,5.8,4.4,91.5,90.3,100.0,0,No,5.3,Low
+STU1294,Student_294,Grade 10,Humanities,93.8,54.3,60.7,2.8,3.7,82.3,68.6,71.8,0,No,1.6,Low
+STU1295,Student_295,Grade 10,Science,,74.9,74.9,2.5,5.6,91.6,51.0,83.0,8,Yes,3.5,Low
+STU1296,Student_296,Grade 12,Computer Science,60.2,94.3,67.6,2.3,3.6,82.4,63.3,68.8,1,Yes,3.8,Low
+STU1297,Student_297,Grade 10,Science,68.7,86.7,52.6,2.5,3.5,49.9,73.0,62.8,1,No,5.1,Medium
+STU1298,Student_298,Grade 11,Computer Science,82.9,46.9,73.5,4.9,5.7,65.4,90.9,67.5,5,No,1.5,Low
+STU1299,Student_299,Grade 9,Science,58.9,56.2,48.0,0.2,4.9,56.4,80.3,69.4,2,Yes,5.0,Medium
+STU1300,Student_300,Grade 12,Computer Science,86.0,87.1,88.2,5.1,4.8,98.6,55.5,84.5,3,Yes,2.0,Low
+STU1301,Student_301,Grade 9,Science,72.6,56.3,60.1,0.7,5.1,48.1,100.0,100.0,1,Yes,0.6,Medium
+STU1302,Student_302,Grade 9,Management,70.8,68.4,71.4,2.4,1.1,89.9,74.5,65.1,13,No,4.3,Low
+STU1303,Student_303,Grade 11,Science,86.0,80.8,72.8,2.2,5.7,89.9,91.7,70.5,8,No,5.3,Medium
+STU1304,Student_304,Grade 10,Science,82.2,56.5,63.6,3.7,5.4,100.0,67.4,76.9,8,No,7.7,Low
+STU1305,Student_305,Grade 10,Management,70.9,73.7,78.0,0.4,2.2,63.8,79.1,85.1,2,No,0.8,Low
+STU1306,Student_306,Grade 9,Humanities,92.2,50.7,59.9,3.5,3.7,86.2,84.3,82.7,6,No,4.3,Low
+STU1307,Student_307,Grade 12,Humanities,60.9,62.4,82.8,5.8,4.1,100.0,90.7,100.0,1,No,2.3,Low
+STU1308,Student_308,Grade 10,Science,84.6,77.1,45.1,0.8,3.9,59.6,88.0,34.3,0,No,4.4,Low
+STU1309,Student_309,Grade 12,Management,84.3,46.5,70.1,3.1,4.9,41.3,84.8,35.0,0,No,0.4,Medium
+STU1310,Student_310,Grade 10,Science,71.7,79.0,100.0,1.8,7.1,34.4,64.6,69.1,4,Yes,0.7,Low
+STU1311,Student_311,Grade 12,Computer Science,80.6,71.7,51.0,3.4,6.4,86.3,60.3,97.8,2,No,1.6,Low
+STU1312,Student_312,Grade 11,Computer Science,58.5,80.8,56.5,2.8,1.6,34.3,75.7,49.8,3,No,3.1,Medium
+STU1313,Student_313,Grade 12,Science,88.9,75.6,76.7,1.8,5.4,64.6,85.9,23.9,0,Yes,1.8,Low
+STU1314,Student_314,Grade 11,Humanities,73.4,,71.1,3.5,6.9,80.7,66.2,88.3,2,No,4.2,Low
+STU1315,Student_315,Grade 11,Humanities,,74.0,74.0,,5.0,75.7,88.1,82.4,5,No,4.8,Low
+STU1316,Student_316,Grade 12,Science,90.7,65.1,76.3,2.5,6.4,80.5,94.7,58.4,2,No,4.1,Medium
+STU1317,Student_317,Grade 11,Science,66.1,74.0,78.8,3.9,8.2,76.4,54.4,60.3,5,No,5.9,Low
+STU1318,Student_318,Grade 9,Computer Science,56.3,80.7,86.9,0.9,6.2,97.6,55.8,60.5,1,Yes,3.7,Medium
+STU1319,Student_319,Grade 11,Humanities,54.2,,75.0,1.4,4.7,53.0,67.6,80.0,7,Yes,0.8,Medium
+STU1320,Student_320,Grade 10,Science,84.5,72.6,63.9,3.5,6.3,58.5,75.2,66.7,4,Yes,5.5,Medium
+STU1321,Student_321,Grade 12,Computer Science,58.1,60.8,79.4,5.0,4.5,56.5,61.1,86.9,1,No,1.9,Low
+STU1322,Student_322,Grade 9,Humanities,100.0,61.4,100.0,3.3,4.2,,93.0,26.6,1,No,4.6,Low
+STU1323,Student_323,Grade 12,Management,46.9,,65.7,2.3,3.5,90.0,77.2,62.6,4,No,5.8,Low
+STU1324,Student_324,Grade 10,Computer Science,99.8,100.0,51.4,2.8,7.3,81.0,70.7,57.7,7,No,3.8,Low
+STU1325,Student_325,Grade 10,Humanities,79.0,52.1,86.8,0.9,2.6,95.7,45.6,73.4,2,Yes,0.3,Low
+STU1326,Student_326,Grade 10,Humanities,74.6,60.9,66.0,3.7,7.3,48.4,47.6,68.3,1,Yes,1.3,Medium
+STU1327,Student_327,Grade 11,Computer Science,68.4,60.5,31.1,4.1,5.2,100.0,74.8,92.4,8,No,5.4,Low
+STU1328,Student_328,Grade 11,Management,81.6,86.3,82.4,2.1,1.4,100.0,33.7,44.5,4,Yes,2.7,Low
+STU1329,Student_329,Grade 12,Computer Science,75.5,67.3,58.9,2.1,4.9,86.7,87.2,78.8,2,No,3.1,Medium
+STU1330,Student_330,Grade 12,Humanities,,92.0,66.5,3.2,0.0,100.0,67.3,88.1,3,No,4.4,Low
+STU1331,Student_331,Grade 9,Science,77.6,61.2,73.6,2.1,5.5,38.9,100.0,100.0,1,No,4.3,Low
+STU1332,Student_332,Grade 9,Science,78.1,76.5,71.2,2.7,6.0,61.5,100.0,69.3,4,No,3.5,Low
+STU1333,Student_333,Grade 12,Computer Science,70.9,58.6,80.1,5.9,3.0,57.3,66.9,83.8,2,No,2.6,Low
+STU1334,Student_334,Grade 11,Humanities,75.2,100.0,60.6,2.4,4.4,86.4,68.2,45.5,22,Yes,2.4,Medium
+STU1335,Student_335,Grade 10,Science,80.3,53.0,76.7,2.3,8.1,51.0,86.9,34.9,3,No,4.5,Low
+STU1336,Student_336,Grade 12,Humanities,52.1,77.0,63.6,1.8,3.2,87.1,99.0,93.2,3,No,4.0,Medium
+STU1337,Student_337,Grade 9,Computer Science,57.1,82.1,80.6,3.9,2.1,99.4,42.2,77.9,3,No,2.5,Medium
+STU1338,Student_338,Grade 11,Science,86.4,78.6,78.5,2.5,7.2,85.9,39.6,99.2,10,No,4.9,Low
+STU1339,Student_339,Grade 12,Humanities,78.4,69.0,52.1,1.8,8.1,77.7,59.4,53.3,6,No,2.8,Low
+STU1340,Student_340,Grade 12,Science,73.4,69.9,86.5,4.8,4.2,52.2,79.9,87.4,2,No,1.5,Low
+STU1341,Student_341,Grade 11,Computer Science,76.3,72.7,58.9,4.9,6.2,55.1,78.4,100.0,5,No,1.6,Medium
+STU1342,Student_342,Grade 12,Humanities,80.9,69.6,81.7,1.9,6.9,97.0,88.2,85.6,4,No,1.2,Low
+STU1343,Student_343,Grade 11,Science,68.4,87.4,74.2,0.2,2.7,87.6,49.6,83.0,3,No,2.5,Medium
+STU1344,Student_344,Grade 10,Computer Science,65.1,100.0,99.2,4.3,3.2,71.2,30.6,78.2,1,Yes,5.2,Medium
+STU1345,Student_345,Grade 11,Science,78.7,63.1,64.2,1.8,6.7,63.6,84.6,49.7,2,Yes,1.6,Medium
+STU1346,Student_346,Grade 11,Science,62.3,50.1,62.1,4.0,7.6,31.5,55.9,100.0,1,No,3.3,Medium
+STU1347,Student_347,Grade 11,Management,81.7,70.6,67.7,0.2,5.3,50.6,35.7,67.0,10,No,1.8,Low
+STU1348,Student_348,Grade 12,Management,52.2,100.0,62.8,4.1,2.4,100.0,72.5,87.1,2,No,2.5,Medium
+STU1349,Student_349,Grade 12,Computer Science,90.4,59.1,81.6,1.0,8.2,46.4,83.5,49.9,12,Yes,0.3,Low
+STU1350,Student_350,Grade 11,Management,82.6,98.2,40.5,3.9,3.1,75.8,67.9,56.8,3,No,2.6,Medium
+STU1351,Student_351,Grade 12,Computer Science,79.6,98.8,50.1,2.8,3.5,92.1,62.2,100.0,4,No,2.7,Low
+STU1352,Student_352,Grade 9,Management,89.8,63.1,49.8,1.4,4.9,46.9,67.3,71.7,3,No,4.0,Low
+STU1353,Student_353,Grade 9,Science,99.3,81.1,84.2,2.2,7.3,75.7,63.7,100.0,1,No,3.4,Low
+STU1354,Student_354,Grade 12,Computer Science,90.2,98.1,97.1,3.8,5.9,90.8,47.1,76.6,2,No,0.8,Low
+STU1355,Student_355,Grade 12,Computer Science,50.2,65.9,66.2,3.0,5.0,72.2,57.9,44.8,0,Yes,5.0,Medium
+STU1356,Student_356,Grade 11,Science,58.1,68.7,65.1,3.7,5.1,100.0,78.9,94.1,4,No,3.4,Medium
+STU1357,Student_357,Grade 10,Computer Science,67.3,62.7,69.2,5.8,4.3,38.6,75.5,67.4,2,No,3.4,Medium
+STU1358,Student_358,Grade 12,Computer Science,76.4,55.8,87.8,0.5,5.3,93.2,72.9,90.6,6,Yes,3.0,Low
+STU1359,Student_359,Grade 9,Management,83.2,61.6,52.2,5.2,0.0,68.5,53.1,78.5,1,Yes,2.1,Medium
+STU1360,Student_360,Grade 11,Computer Science,65.8,52.4,72.1,3.0,3.6,87.4,66.9,50.2,1,No,3.4,Low
+STU1361,Student_361,Grade 12,Humanities,78.6,72.5,84.6,1.5,4.7,80.8,33.0,81.0,2,No,3.9,Low
+STU1362,Student_362,Grade 9,Science,65.4,59.7,76.5,0.8,1.9,57.3,73.0,100.0,10,No,0.0,Medium
+STU1363,Student_363,Grade 9,Management,67.4,75.7,71.2,2.5,5.0,76.6,94.3,86.9,5,Yes,2.0,Low
+STU1364,Student_364,Grade 10,Management,56.3,47.1,85.0,4.2,3.8,34.8,44.9,77.0,2,No,2.5,Medium
+STU1365,Student_365,Grade 11,Humanities,63.1,77.3,22.0,2.6,7.7,84.1,60.0,97.4,3,No,3.5,Low
+STU1366,Student_366,Grade 11,Science,57.1,85.3,79.5,5.1,7.3,78.0,75.6,81.8,0,Yes,5.1,Medium
+STU1367,Student_367,Grade 10,Science,62.3,40.1,56.9,0.6,3.3,,91.3,81.8,17,No,1.6,Medium
+STU1368,Student_368,Grade 10,Management,90.8,78.0,36.9,2.8,3.9,93.2,62.4,58.4,4,No,2.1,Low
+STU1369,Student_369,Grade 11,Computer Science,62.7,91.6,76.7,0.9,4.1,79.4,58.2,82.2,1,No,2.1,Low
+STU1370,Student_370,Grade 11,Management,100.0,52.6,91.4,3.3,3.3,75.0,36.5,96.6,4,No,1.6,Low
+STU1371,Student_371,Grade 12,Science,82.9,98.8,65.7,4.1,4.6,54.4,71.8,63.0,0,Yes,2.4,Low
+STU1372,Student_372,Grade 12,Humanities,78.6,78.7,84.2,2.2,2.7,57.8,100.0,100.0,14,No,4.4,Low
+STU1373,Student_373,Grade 10,Management,64.0,60.7,95.4,0.2,1.9,95.7,74.7,76.3,1,Yes,1.1,Low
+STU1374,Student_374,Grade 12,Science,85.8,71.1,90.4,3.1,5.4,100.0,69.6,62.0,4,Yes,3.8,Low
+STU1375,Student_375,Grade 9,Management,67.9,80.9,95.9,3.5,5.5,67.2,75.5,96.0,1,No,0.0,Low
+STU1376,Student_376,Grade 12,Computer Science,77.7,73.2,80.6,3.4,2.6,72.9,69.8,72.8,5,Yes,2.0,Low
+STU1377,Student_377,Grade 12,Management,100.0,80.6,69.3,4.7,6.0,53.9,56.2,91.7,6,No,2.4,Low
+STU1378,Student_378,Grade 9,Management,74.7,57.3,40.8,1.2,2.9,95.5,84.0,72.7,4,No,6.0,Low
+STU1379,Student_379,Grade 10,Science,,,63.8,3.8,4.7,85.3,73.8,76.9,4,No,2.5,Medium
+STU1380,Student_380,Grade 9,Science,66.2,49.4,53.7,4.6,5.8,100.0,70.3,86.9,9,No,0.0,Low
+STU1381,Student_381,Grade 12,Science,75.5,70.2,100.0,0.2,4.1,54.4,53.4,83.2,0,No,0.0,Low
+STU1382,Student_382,Grade 10,Management,100.0,,65.0,3.3,5.1,64.4,92.2,42.1,2,No,3.1,Low
+STU1383,Student_383,Grade 12,Computer Science,67.2,60.2,70.1,2.0,3.2,76.6,81.3,57.8,1,No,4.1,Medium
+STU1384,Student_384,Grade 9,Humanities,100.0,91.8,77.4,2.7,3.8,84.9,60.6,94.7,18,No,3.7,Low
+STU1385,Student_385,Grade 9,Humanities,85.9,89.5,68.7,3.3,3.8,67.7,87.0,75.6,2,No,3.3,Low
+STU1386,Student_386,Grade 12,Science,68.1,81.7,96.8,2.1,2.7,54.5,61.5,68.6,5,No,5.1,Low
+STU1387,Student_387,Grade 11,Science,84.9,54.5,57.4,1.8,3.8,89.6,56.7,53.5,5,No,2.0,Low
+STU1388,Student_388,Grade 11,Management,89.6,66.9,71.3,2.9,1.1,86.4,57.1,58.6,1,No,4.6,Low
+STU1389,Student_389,Grade 9,Humanities,84.7,91.4,55.4,1.2,3.2,53.7,39.9,41.6,1,Yes,0.1,Low
+STU1390,Student_390,Grade 9,Science,54.0,74.3,45.6,1.2,3.6,99.1,78.0,76.2,1,No,1.4,Low
+STU1391,Student_391,Grade 11,Computer Science,65.8,100.0,57.6,3.8,3.7,95.4,38.9,67.2,2,No,0.0,Low
+STU1392,Student_392,Grade 11,Computer Science,72.5,78.3,67.4,1.1,3.7,74.7,49.1,60.6,1,No,2.5,Low
+STU1393,Student_393,Grade 12,Science,75.0,75.1,60.7,3.8,4.1,73.6,34.7,76.8,0,Yes,2.9,Medium
+STU1394,Student_394,Grade 12,Science,84.7,67.1,56.2,3.5,5.2,83.1,68.5,84.6,8,No,3.2,Medium
+STU1395,Student_395,Grade 11,Humanities,78.5,74.1,44.1,0.2,5.9,54.8,67.4,100.0,13,No,3.1,Medium
+STU1396,Student_396,Grade 12,Humanities,57.3,69.6,66.6,1.8,2.9,72.6,64.4,50.8,2,No,1.3,Low
+STU1397,Student_397,Grade 12,Management,81.3,83.3,42.4,4.6,1.8,29.0,52.3,98.9,2,Yes,2.7,Medium
+STU1398,Student_398,Grade 10,Humanities,84.5,87.3,80.9,1.3,2.1,89.5,50.1,95.5,0,No,0.3,Low
+STU1399,Student_399,Grade 12,Computer Science,83.8,59.4,69.4,2.1,3.2,,77.9,64.0,5,Yes,5.5,Low
+STU1400,Student_400,Grade 9,Computer Science,91.1,50.7,43.2,3.5,3.5,100.0,60.6,81.7,7,No,2.5,Low
+STU1401,Student_401,Grade 12,Science,87.7,42.6,62.7,4.0,2.7,65.4,75.4,69.8,1,No,2.1,Low
+STU1402,Student_402,Grade 12,Humanities,82.4,80.1,55.2,2.4,1.6,67.8,55.0,81.3,1,No,5.9,Low
+STU1403,Student_403,Grade 11,Management,75.0,54.3,73.4,1.9,3.3,59.4,73.1,100.0,6,No,0.8,Low
+STU1404,Student_404,Grade 9,Computer Science,52.7,37.6,90.8,,4.6,66.2,92.2,88.9,4,No,1.0,Medium
+STU1405,Student_405,Grade 12,Computer Science,82.0,78.2,36.1,5.4,5.4,100.0,80.0,87.2,0,Yes,1.0,Low
+STU1406,Student_406,Grade 12,Management,78.9,100.0,70.0,4.3,3.1,22.2,63.0,70.3,4,No,2.9,Low
+STU1407,Student_407,Grade 10,Management,79.8,71.9,65.3,2.9,3.4,97.5,74.4,51.3,1,Yes,3.8,Medium
+STU1408,Student_408,Grade 12,Computer Science,58.1,85.4,79.4,1.6,2.3,78.8,65.9,74.2,2,No,4.3,Low
+STU1409,Student_409,Grade 12,Computer Science,60.9,73.3,71.6,1.6,4.1,47.9,70.1,99.7,6,No,7.6,Low
+STU1410,Student_410,Grade 10,Management,90.7,70.4,55.2,3.6,2.5,50.5,64.5,50.5,7,Yes,0.0,Medium
+STU1411,Student_411,Grade 11,Computer Science,75.4,86.7,62.6,3.4,5.3,100.0,67.2,59.0,2,No,4.1,Low
+STU1412,Student_412,Grade 12,Science,85.5,67.4,54.5,4.9,0.6,53.1,73.6,80.3,12,No,2.0,Medium
+STU1413,Student_413,Grade 10,Science,76.4,76.3,86.3,3.8,3.5,48.9,53.1,60.3,2,No,1.9,Low
+STU1414,Student_414,Grade 9,Management,76.4,,68.4,0.5,4.8,94.7,52.7,63.7,6,Yes,1.9,Medium
+STU1415,Student_415,Grade 11,Humanities,89.1,61.3,100.0,4.4,4.6,78.8,46.4,70.4,3,No,1.4,Low
+STU1416,Student_416,Grade 9,Management,68.8,87.9,67.0,1.3,9.6,53.2,42.8,53.4,9,No,6.0,Low
+STU1417,Student_417,Grade 9,Management,77.3,69.2,56.0,2.2,4.9,76.3,49.3,60.5,10,No,4.5,Low
+STU1418,Student_418,Grade 10,Humanities,69.5,59.9,42.3,3.2,2.2,51.5,72.7,90.7,0,No,3.0,Medium
+STU1419,Student_419,Grade 12,Humanities,69.9,80.6,37.3,5.8,4.0,94.0,54.8,54.5,11,No,5.4,Medium
+STU1420,Student_420,Grade 10,Humanities,71.7,57.6,41.1,7.5,0.6,93.2,78.7,49.2,7,Yes,0.3,Medium
+STU1421,Student_421,Grade 10,Science,79.1,72.5,72.5,3.7,4.0,82.6,70.6,66.7,6,No,0.6,Low
+STU1422,Student_422,Grade 10,Computer Science,69.3,71.9,76.6,2.5,2.5,79.2,36.5,91.2,1,No,0.0,Low
+STU1423,Student_423,Grade 10,Science,93.6,89.4,41.1,3.6,6.0,100.0,81.1,74.5,7,No,1.7,Low
+STU1424,Student_424,Grade 11,Computer Science,63.5,79.6,83.2,4.1,3.1,72.0,83.8,69.6,8,No,3.3,Medium
+STU1425,Student_425,Grade 12,Science,73.4,71.6,59.8,2.3,4.0,48.4,53.1,78.8,1,No,3.2,Low
+STU1426,Student_426,Grade 9,Computer Science,69.8,85.1,70.5,5.5,2.9,81.0,77.1,46.6,12,No,3.3,Low
+STU1427,Student_427,Grade 9,Science,96.3,94.2,95.4,3.1,7.7,100.0,55.4,86.9,0,No,0.5,Low
+STU1428,Student_428,Grade 12,Humanities,78.8,80.9,83.2,3.5,3.6,51.7,71.7,84.9,1,No,4.4,Low
+STU1429,Student_429,Grade 9,Management,90.4,72.2,63.4,3.8,7.9,64.8,48.5,70.6,3,No,3.4,Low
+STU1430,Student_430,Grade 12,Science,55.2,51.0,52.8,,5.8,80.3,39.5,96.1,3,Yes,4.3,Medium
+STU1431,Student_431,Grade 9,Computer Science,79.7,55.0,31.4,4.1,5.2,70.9,63.5,57.7,4,No,0.0,Medium
+STU1432,Student_432,Grade 10,Humanities,88.5,67.1,55.8,1.9,4.9,,67.9,98.3,0,Yes,3.6,Medium
+STU1433,Student_433,Grade 9,Science,77.2,62.2,64.4,2.0,5.0,94.4,63.2,80.8,13,No,0.9,Low
+STU1434,Student_434,Grade 12,Science,90.9,69.0,51.2,1.1,0.3,100.0,49.9,71.9,0,No,2.3,Low
+STU1435,Student_435,Grade 12,Humanities,68.8,72.9,65.8,3.5,3.6,75.9,63.2,77.6,1,No,4.0,Low
+STU1436,Student_436,Grade 12,Science,95.7,80.5,69.3,4.0,5.9,53.9,74.6,76.1,0,No,3.2,Low
+STU1437,Student_437,Grade 12,Management,100.0,70.9,64.2,3.5,4.1,41.0,69.2,100.0,3,Yes,1.5,Low
+STU1438,Student_438,Grade 12,Science,70.9,79.8,56.9,5.3,1.4,77.2,73.1,58.6,11,Yes,3.0,Medium
+STU1439,Student_439,Grade 11,Management,69.8,73.0,70.9,2.8,4.1,94.1,58.6,64.3,4,No,0.2,Low
+STU1440,Student_440,Grade 11,Management,96.3,40.4,75.5,3.8,7.6,81.5,89.9,96.7,7,No,5.1,Low
+STU1441,Student_441,Grade 9,Humanities,98.1,57.0,49.5,1.2,6.7,72.0,50.0,67.3,0,No,2.6,Medium
+STU1442,Student_442,Grade 12,Science,68.7,69.7,92.0,2.2,4.1,60.2,78.3,94.2,3,No,5.0,Low
+STU1443,Student_443,Grade 9,Humanities,70.1,52.6,66.3,3.8,6.1,50.2,90.1,100.0,2,No,2.1,Medium
+STU1444,Student_444,Grade 12,Science,72.1,81.6,68.3,4.1,3.5,88.7,78.2,70.8,3,No,2.1,Low
+STU1445,Student_445,Grade 12,Science,57.2,96.5,80.0,2.4,0.8,90.3,66.6,90.3,0,No,1.6,Medium
+STU1446,Student_446,Grade 11,Computer Science,63.1,91.5,72.0,2.7,2.4,41.1,61.0,57.2,5,No,4.6,Medium
+STU1447,Student_447,Grade 11,Science,61.9,68.6,84.2,0.5,7.3,100.0,87.6,91.6,3,No,1.7,Low
+STU1448,Student_448,Grade 10,Humanities,65.3,95.9,72.9,2.3,3.7,83.5,45.8,81.6,6,No,4.2,Low
+STU1449,Student_449,Grade 11,Management,75.5,74.4,57.6,4.1,3.7,100.0,53.5,86.5,3,No,2.3,Low
+STU1450,Student_450,Grade 10,Science,79.3,66.6,74.1,3.7,3.6,45.2,63.2,66.4,1,Yes,0.0,Low
+STU1451,Student_451,Grade 10,Computer Science,97.7,62.2,48.6,3.6,8.0,44.7,91.0,48.1,4,No,2.0,Medium
+STU1452,Student_452,Grade 10,Humanities,62.0,67.2,69.8,2.9,7.5,69.0,76.5,87.1,1,Yes,0.9,Low
+STU1453,Student_453,Grade 10,Science,89.8,65.8,67.4,2.8,8.6,82.1,53.5,40.9,8,No,3.1,Medium
+STU1454,Student_454,Grade 10,Humanities,73.0,74.7,64.5,1.8,3.9,100.0,64.7,72.3,4,No,0.9,Low
+STU1455,Student_455,Grade 9,Computer Science,75.3,74.6,65.8,3.8,4.8,86.1,59.6,94.9,1,Yes,4.7,Medium
+STU1456,Student_456,Grade 11,Computer Science,85.4,72.0,36.0,3.4,1.2,67.1,57.9,81.5,13,No,2.8,Medium
+STU1457,Student_457,Grade 10,Humanities,60.3,79.0,58.7,3.5,7.2,51.5,86.6,100.0,3,No,2.7,Low
+STU1458,Student_458,Grade 12,Science,81.4,91.1,69.6,2.0,1.9,96.6,46.7,96.5,0,No,4.2,Low
+STU1459,Student_459,Grade 11,Management,78.3,87.2,70.7,0.2,4.6,52.7,97.3,66.2,4,Yes,4.7,Medium
+STU1460,Student_460,Grade 11,Computer Science,82.9,48.2,50.5,4.4,2.0,100.0,84.1,78.5,1,No,3.0,Low
+STU1461,Student_461,Grade 10,Science,80.0,31.1,89.5,2.1,3.0,66.3,88.5,77.1,7,Yes,1.6,Medium
+STU1462,Student_462,Grade 9,Science,100.0,86.9,53.3,1.5,2.5,100.0,62.1,49.5,7,No,0.0,Low
+STU1463,Student_463,Grade 10,Management,67.1,50.1,84.5,3.8,3.0,85.6,67.5,61.1,15,No,1.8,Low
+STU1464,Student_464,Grade 9,Computer Science,68.6,68.4,75.3,,3.1,69.3,45.6,67.9,3,Yes,1.9,Low
+STU1465,Student_465,Grade 12,Computer Science,67.3,53.3,57.0,4.4,3.1,61.6,61.1,41.3,2,No,3.2,Medium
+STU1466,Student_466,Grade 11,Science,68.2,43.2,98.2,3.7,5.9,65.2,78.4,78.9,6,No,2.4,Low
+STU1467,Student_467,Grade 12,Science,67.1,80.7,47.7,3.8,2.0,80.6,92.0,73.5,1,No,4.2,Medium
+STU1468,Student_468,Grade 9,Management,92.6,,83.6,0.8,4.6,73.5,51.2,47.9,3,Yes,1.9,Low
+STU1469,Student_469,Grade 9,Management,95.9,62.8,85.0,4.6,6.6,60.1,63.8,85.3,3,No,2.9,Low
+STU1470,Student_470,Grade 12,Computer Science,68.0,30.5,56.6,3.2,3.2,68.7,67.4,90.9,0,No,5.1,Low
+STU1471,Student_471,Grade 9,Humanities,64.3,63.3,91.7,2.2,2.8,73.6,46.3,82.1,2,Yes,3.6,Medium
+STU1472,Student_472,Grade 12,Computer Science,82.6,78.3,63.7,3.0,3.7,29.4,80.1,72.2,8,Yes,2.9,High
+STU1473,Student_473,Grade 11,Science,68.3,48.3,72.9,0.2,6.6,81.2,57.7,88.6,8,No,1.9,Low
+STU1474,Student_474,Grade 12,Computer Science,84.9,74.9,72.4,3.4,4.6,52.4,66.7,90.2,0,No,1.9,Low
+STU1475,Student_475,Grade 11,Humanities,78.8,71.8,65.7,1.3,3.1,48.9,62.3,83.5,0,No,1.5,Low
+STU1476,Student_476,Grade 12,Management,54.8,81.3,81.8,0.8,5.2,38.3,56.6,63.2,1,Yes,2.0,Low
+STU1477,Student_477,Grade 9,Humanities,97.7,73.9,81.5,0.5,2.0,36.1,69.9,83.0,8,No,4.4,Low
+STU1478,Student_478,Grade 12,Humanities,100.0,56.4,38.3,4.5,5.6,44.9,66.3,99.5,1,No,2.6,Medium
+STU1479,Student_479,Grade 9,Humanities,67.4,91.1,90.2,1.9,5.0,57.8,63.7,67.3,5,No,0.6,Low
+STU1480,Student_480,Grade 12,Management,70.6,69.5,39.7,5.1,3.6,100.0,57.6,100.0,0,No,6.2,Medium
+STU1481,Student_481,Grade 12,Humanities,80.0,71.6,85.6,2.0,2.5,61.5,75.4,68.5,4,Yes,3.6,Low
+STU1482,Student_482,Grade 10,Humanities,80.7,57.1,87.2,0.2,2.4,75.6,98.1,78.6,2,No,0.5,Low
+STU1483,Student_483,Grade 9,Humanities,85.2,64.9,49.5,1.1,5.3,80.0,72.4,65.9,6,No,2.2,Low
+STU1484,Student_484,Grade 10,Science,100.0,57.8,61.0,4.7,6.7,74.6,86.9,82.0,1,No,3.2,Low
+STU1485,Student_485,Grade 9,Humanities,73.5,69.2,49.2,2.6,2.9,70.5,46.4,46.6,4,No,6.1,Medium
+STU1486,Student_486,Grade 10,Management,64.8,99.4,64.3,2.0,5.1,48.1,72.7,68.2,1,No,1.0,Medium
+STU1487,Student_487,Grade 11,Humanities,56.7,50.0,62.8,3.0,0.0,100.0,51.3,58.3,5,No,4.8,Medium
+STU1488,Student_488,Grade 12,Humanities,65.8,46.2,81.3,3.6,3.0,100.0,44.9,80.4,8,No,5.5,Medium
+STU1489,Student_489,Grade 9,Management,75.5,95.5,90.3,4.5,4.1,38.3,57.4,95.9,1,Yes,1.9,Low
+STU1490,Student_490,Grade 9,Humanities,100.0,68.7,91.7,5.0,2.4,51.5,90.3,89.6,8,No,2.5,Low
+STU1491,Student_491,Grade 12,Management,68.8,61.3,58.4,2.3,2.3,66.4,86.2,35.3,4,No,1.1,Medium
+STU1492,Student_492,Grade 9,Humanities,79.1,88.6,64.4,0.8,2.9,52.7,74.1,100.0,1,No,2.6,Medium
+STU1493,Student_493,Grade 9,Management,75.8,62.3,39.4,2.2,4.8,82.1,43.9,83.3,2,Yes,2.9,Low
+STU1494,Student_494,Grade 10,Humanities,92.6,100.0,54.3,3.2,3.8,57.4,66.7,64.0,1,No,4.2,Medium
+STU1495,Student_495,Grade 9,Humanities,100.0,82.8,84.4,1.4,0.0,100.0,75.1,80.8,5,No,5.0,Low
+STU1496,Student_496,Grade 11,Science,68.6,64.2,95.5,1.4,0.0,95.8,73.0,81.2,6,No,1.7,Low
+STU1497,Student_497,Grade 11,Science,69.1,100.0,47.0,3.3,3.0,76.3,38.7,66.0,0,Yes,0.0,Medium
+STU1498,Student_498,Grade 12,Humanities,90.6,62.3,57.9,2.7,5.1,92.5,54.9,81.6,3,No,3.0,Low
+STU1499,Student_499,Grade 9,Humanities,85.5,83.9,67.6,2.8,0.0,94.1,68.9,67.1,7,No,3.5,Low
+STU1500,Student_500,Grade 12,Computer Science,100.0,76.8,72.8,1.7,3.2,60.7,79.1,70.7,11,No,3.4,Low
+STU1309,Student_309,Grade 12,Management,84.3,46.5,70.1,3.1,4.9,41.3,84.8,35.0,0,No,0.4,Medium
+STU1014,Student_14,Grade 11,Management,93.3,58.9,56.8,2.4,4.3,77.7,63.1,84.8,1,No,4.6,Low
+STU1415,Student_415,Grade 11,Humanities,89.1,61.3,100.0,4.4,4.6,78.8,46.4,70.4,3,No,1.4,Low
+STU1033,Student_33,Grade 12,Science,92.5,64.9,94.0,2.5,5.0,,48.0,95.1,7,No,2.2,Low
+STU1461,Student_461,Grade 10,Science,80.0,31.1,89.5,2.1,3.0,66.3,88.5,77.1,7,Yes,1.6,Medium
+STU1156,Student_156,Grade 10,Science,60.2,64.7,98.1,2.2,1.7,75.1,94.7,91.8,1,No,2.9,Low
+STU1250,Student_250,Grade 11,Management,52.8,87.4,61.1,1.9,6.3,80.9,74.5,71.0,1,No,2.1,Medium
+STU1218,Student_218,Grade 9,Humanities,95.0,69.8,54.4,,1.8,93.4,70.0,94.0,0,Yes,0.0,Low
